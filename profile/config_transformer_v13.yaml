@@ -1,0 +1,25 @@
+
+# prune type: column / filter
+# prune ratio:   /
+prune_ratios:
+    transformer_encoder.layers.0.self_attn.in_proj_weight:
+        0.10
+    transformer_encoder.layers.0.self_attn.out_proj.weight:
+        0.90
+    transformer_encoder.layers.0.linear1.weight:
+        0.10
+    transformer_encoder.layers.0.linear2.weight:
+        0.10
+    transformer_encoder.layers.1.self_attn.in_proj_weight:
+        0.10
+    transformer_encoder.layers.1.self_attn.out_proj.weight:
+        0.10
+    transformer_encoder.layers.1.linear1.weight:
+        0.10
+    transformer_encoder.layers.1.linear2.weight:
+        0.10
+    encoder.weight:
+        0.10
+    decoder.weight:
+        0.10
+

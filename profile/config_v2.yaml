@@ -1,0 +1,12 @@
+
+# prune type: column
+# prune ratio:   /
+prune_ratios:
+    conv1.weight:
+        0.92
+    conv2.weight:
+        0.99
+    fc1.weight:
+        0.1
+    fc2.weight:
+        0.1

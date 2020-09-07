@@ -1,0 +1,8 @@
+
+# prune type: column / filter
+# prune ratio:   /
+prune_ratios:
+    conv1.weight:
+        0.70
+    conv2.weight:
+        0.82
